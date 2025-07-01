@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "manrope";
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#myVideo {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.header {}
+
+.header-wrapper {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 100px;
+}
+
+.header-link-white {
+    color: white;
+    font-weight: 600;
+}
+
+.header-logo {
+    width: 450px;
+    position: relative;
+    bottom: 180px;
+}
+
+.header-link-blue {
+    color: #58C8F0;
+    font-weight: 600;
+}
+
+.header-link-orange {
+    color: #A1123D;
+    font-weight: 600;
+}
+
+.info-item {
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(60, 58, 58);
+
+}
+
+
+.info-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    width: 700px;
+}
+
+.info-btn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(60, 58, 58);
+    border-radius: 12px;
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.info-jujutsu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.card-section {
+    background-color: rgb(51, 50, 50);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    margin-top: 340px;
+}
+
+.cards {
+    background-color: rgb(47, 47, 47);
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    transition: 300ms all ease;
+
+}
+
+.cards:hover {
+    transition: 300ms all ease;
+    transform: translateY(-13px);
+}
+
+.card-hero {
+    width: 280px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-item {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-info {
+    font-weight: 600;
+    color: white;
+    width: 300;
+    margin: 0 auto;
+    text-align: center;
+}
+.cards-wrapper{
+    display: flex;
+    gap: 40px;
+    padding-top: 200px;
+}
+.card-hero-yuji{
+    width: 230px;
+    margin: 0 auto;
+}
+.card-sect-item{
+    color: white;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
